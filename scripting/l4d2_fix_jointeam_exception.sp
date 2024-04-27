@@ -70,7 +70,7 @@ bool IsTeamFull(int teamnum)
 		case team_Survivors:
 			hcounts = FindConVar("survivor_limit");
 		case team_Infecteds:
-			hcounts = FindConVar("survivor_limit");
+			hcounts = FindConVar("z_max_player_zombies");
 	}
 	if (hcounts != null)
 	{
